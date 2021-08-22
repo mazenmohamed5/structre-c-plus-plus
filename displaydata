@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+struct person 
+{
+	string name;
+	int age;
+	float salary;
+};
+void displaydata(person p)
+{
+	    cout << "your name = "<< p.name << endl;
+		cout <<"your age = "<< p.age << endl;
+		cout<<"your salary="<< p.salary << endl;
+}
+
+int main()
+{
+	person per;
+	person p;
+	
+	cin >> p.name;
+	cin >> p.age;
+	cin >> p.salary;
+     displaydata(p);
+	return 0;
+}
+
